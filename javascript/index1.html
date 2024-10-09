@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Boutique d'Artisanat</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* Style pour le header */
+        header {
+            background-color: #f4e1d2;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        /* Style pour la navigation */
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        nav li {
+            float: left;
+            width: 25%;
+            text-align: center;
+        }
+        nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 0;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        /* Style pour la bannière */
+        .banner {
+            background-image: url('IMG_6049.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .banner h2 {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+        /* Style pour les produits */
+        .produits {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            justify-content: space-around;
+        }
+        .produit {
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .produit img {
+            width: 100%;
+            height: auto;
+        }
+        .produit h3 {
+            margin: 10px 0 5px 0;
+        }
+        .produit p {
+            margin: 0;
+        }
+        /* Style pour le footer */
+        footer {
+            background-color: #f4e1d2;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- En-tête du site -->
+    <header>
+        <h1>Boutique d'Artisanat</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Boutique</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Bannière -->
+    <div class="banner">
+        <h2>Découvrez nos créations uniques</h2>
+    </div>
+
+    <!-- Section des produits -->
+    <section class="produits">
+        <div class="produit">
+            <img src="IMG_6049.jpeg" alt="Produit 1">
+            <h3>Produit 1</h3>
+            <p>€20.00</p>
+        </div>
+        <div class="produit">
+            <img src="produit2.jpg" alt="Produit 2">
+            <h3>Produit 2</h3>
+            <p>€35.00</p>
+        </div>
+        <div class="produit">
+            <img src="produit3.jpg" alt="Produit 3">
+            <h3>Produit 3</h3>
+            <p>€15.00</p>
+        </div>
+        <div class="produit">
+            <img src="IMG_6049.jpeg" alt="Produit 1">
+            <h3>Produit 1</h3>
+            <p>€20.00</p>
+        </div>
+        <div class="produit">
+            <img src="IMG_6049.jpeg" alt="Produit 1">
+            <h3>Produit 1</h3>
+            <p>€20.00</p>
+        </div>
+        <!-- Ajoutez plus de produits selon vos besoins -->
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Boutique d'Artisanat. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
