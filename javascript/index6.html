@@ -30,113 +30,106 @@
             <li><a href="admin.html">Admin</a></li>
         </ul>
     </nav>
-
     <!-- Bannière -->
     <div class="banner">
         <h2>Découvrez nos créations uniques</h2>
         <a href="enregistrement.html" class="btn-register">S'enregistrer</a>
     </div>
 
-    <!-- Section des produits -->
-    <section class="produits">
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 1">
-            <h3>Produit 1</h3>
-            <button class="btn-modifier">Modifier le produit</button>
+    <!-- Section À Propos -->
+    <section class="about-section">
+        
+        <div class="about-block">
+        <div class="about-image">
+            <img src="images/ceinture1-0.jpg" alt="Votre Image 1">
         </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 2">
-            <h3>Produit 2</h3>
-            <button class="btn-modifier">Modifier le produit</button>
+        <div class="about-text">
+            <h2>Qui suis-je ?</h2>
+            <p>
+            Je suis [votre nom], un artisan passionné par [votre domaine d'artisanat]. Mon parcours a commencé...
+            Je suis [votre nom], un artisan passionné par [votre domaine d'artisanat]. Mon parcours a commencé...
+            </p>
         </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 3">
-            <h3>Produit 3</h3>
-            <button class="btn-modifier">Modifier le produit</button>
         </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 4">
-            <h3>Produit 4</h3>
-            <button class="btn-modifier">Modifier le produit</button>
+            
+        <div class="about-block reverse">
+        <div class="about-image">
+            <img src="images/ceinture1-0.jpg" alt="Votre Image 2">
         </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 4">
-            <h3>Produit 4</h3>
-            <button class="btn-modifier">Modifier le produit</button>
+        <div class="about-text">
+            <h2>D'où je viens ?</h2>
+            <p>
+            Originaire de [votre lieu d'origine], j'ai toujours été inspiré par...
+            Originaire de [votre lieu d'origine], j'ai toujours été inspiré par...
+            Originaire de [votre lieu d'origine], j'ai toujours été inspiré par.
+            </p>
         </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 4">
-            <h3>Produit 4</h3>
-            <button class="btn-modifier">Modifier le produit</button>
         </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 4">
-            <h3>Produit 4</h3>
-            <button class="btn-modifier">Modifier le produit</button>
+            
+        <div class="about-block">
+        <div class="about-image">
+        <img src="images/ceinture1-0.jpg" alt="Votre Image 3">
         </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 4">
-            <h3>Produit 4</h3>
-            <button class="btn-modifier">Modifier le produit</button>
+        <div class="about-text">
+            <h2>Pourquoi je fais ce métier ?</h2>
+            <p>
+            La passion pour [votre domaine] m'a poussé à...
+            La passion pour [votre domaine] m'a poussé à...
+            La passion pour [votre domaine] m'a poussé à...
+            </p>
         </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 4">
-            <h3>Produit 4</h3>
-            <button class="btn-modifier">Modifier le produit</button>
         </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 4">
-            <h3>Produit 4</h3>
-            <button class="btn-modifier">Modifier le produit</button>
-        </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 4">
-            <h3>Produit 4</h3>
-            <button class="btn-modifier">Modifier le produit</button>
-        </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 4">
-            <h3>Produit 4</h3>
-            <button class="btn-modifier">Modifier le produit</button>
-        </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 4">
-            <h3>Produit 4</h3>
-            <button class="btn-modifier">Modifier le produit</button>
-        </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 4">
-            <h3>Produit 4</h3>
-            <button class="btn-modifier">Modifier le produit</button>
-        </div>
-        <div class="produit">
-            <img src="images/ceinture1-0.jpg" alt="Produit 4">
-            <h3>Produit 4</h3>
-            <button class="btn-modifier">Modifier le produit</button>
-        </div>
-
-        <!-- Ajoutez plus de produits selon vos besoins -->
     </section>
 
-    <!-- Formulaire de modification -->
-    <div id="modifier-produit-modal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Modifier le Produit</h2>
-            <form id="modifier-produit-form">
-                <label for="produit-nom">Nom du Produit :</label>
-                <input type="text" id="produit-nom" name="produit-nom" required>
+<style>
+        /* Styles pour la section À Propos */
+.about-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+.about-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.about-block .about-image {
+    flex: 1;
+    padding: 10px;
+}
+.about-block .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
-                <label for="produit-prix">Prix (€) :</label>
-                <input type="number" id="produit-prix" name="produit-prix" step="0.01" required>
+.about-block .about-text {
+    flex: 1;
+    padding: 10px;
+}
 
-                <label for="produit-image">URL de l'Image :</label>
-                <input type="text" id="produit-image" name="produit-image" required>
+.about-block .about-text h2 {
+    margin-top: 0;
+}
 
-                <input type="submit" value="Enregistrer les modifications">
-            </form>
-        </div>
-    </div>
+.about-block.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Design Responsive */
+@media (max-width: 768px) {
+    .about-block {
+        flex-direction: column;
+        text-align: center;
+    }
+.about-block.reverse {
+    flex-direction: column;
+    }
+    .about-block .about-text,
+        .about-block .about-image {
+            padding: 0;
+    }
+}
+</style>
 
     <!-- Pied de page -->
     <footer>
@@ -145,50 +138,6 @@
 
     <!-- Script JavaScript -->
     <script>
-        // JavaScript pour le menu déroulant
-        document.querySelector('.dropbtn').addEventListener('click', function(event) {
-            event.preventDefault();
-            this.nextElementSibling.classList.toggle('show');
-        });
-
-        // Ferme le menu déroulant si l'utilisateur clique en dehors
-        window.onclick = function(event) {
-            if (!event.target.matches('.dropbtn')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                for (var i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                    }
-                }
-            }
-        }
-
-        // JavaScript pour le modal de modification du produit
-        var modal = document.getElementById("modifier-produit-modal");
-        var btns = document.getElementsByClassName("btn-modifier");
-        var span = document.getElementsByClassName("close")[0];
-
-        // Ouvre le modal lorsque l'utilisateur clique sur un bouton "Modifier le produit"
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].onclick = function() {
-                modal.style.display = "block";
-                // Vous pouvez également remplir le formulaire avec les données du produit ici
-            }
-        }
-
-        // Ferme le modal lorsque l'utilisateur clique sur le "X"
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-
-        // Ferme le modal si l'utilisateur clique en dehors du modal
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-
         // Code pour l'effet de flou lors du défilement
         document.addEventListener('DOMContentLoaded', function() {
             var produits = document.querySelectorAll('.produit');
